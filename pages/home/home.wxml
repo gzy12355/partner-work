@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+<image class="background" src="/image/shuimo_home.jpg" mode="aspectFill"></image>
+<view class="title">水调歌骰</view>
+<view class="homebutton">
+  <navigator url="/pages/pvp/pvp" open-type="navigate"><button class="hb-button" type="default" >本地对战</button></navigator>
+  <navigator url="/pages/pve/pve" open-type="navigate"><button class="hb-button" type="default" >人机对战</button></navigator>
+  <navigator url="/pages/rule/rule" open-type="navigate"><button class="hb-button" type="default" >游戏规则</button></navigator>
+  <navigator url="/pages/paiming/paiming" open-type="navigate"><button class="paiming" type="default" >排行榜</button></navigator>
+</view>
+
+

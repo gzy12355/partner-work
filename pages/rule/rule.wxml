@@ -1,0 +1,13 @@
+<!--pages/rule/rule.wxml-->
+<image class="background" src="/image/paiming_shuimo.jpg" mode="aspectFill"></image>
+<view class="title">游戏规则</view>
+<view class="text ">玩家A，B轮流投掷骰子，并选择己区九宫格中任意一列摆放，在己方置放骰子后，对方该列的相同点数的骰子将被全部消除。当一方的九宫格全满即游戏结束，开始结算。</view>
+<view class="text">结算规则:某一列的分数结算(各点数*此点数在此列出现次数^2 ),总分为三列分数之和</view>
+<view class="eg">`例子:
+  <view class="eg-item">6 6 5 --第一列分数:6+4+0=10</view>
+  <view class="eg-item">4 5 0 --第二列分数:6+5+3=14</view>
+  <view class="eg-item">0 3 5 --第三列分数:5*2^2+0=20</view>
+  <view class="eg-item">总分为:10+14+20=44</view>
+</view>
+
+

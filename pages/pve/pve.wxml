@@ -1,0 +1,29 @@
+<!--pages/pve/pve.wxml-->
+<image class="background" src="/image/shuimo_play.jpg"></image>
+<view class="touzi1" bindtap="yaotouzi1"><image class="but1" src='{{touzitupian1}}' mode="widthFix"></image></view>
+<view class="board1">
+    <view class="sum1">Robot’points：{{sum1}}</view>
+    <view class="board-item"><button bindtap="changepoint1" data-id="{{0}}" data-sid="{{0}}" disabled="{{isDisabled1}}">{{point1[0][0]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint1" data-id="{{0}}" data-sid="{{1}}" disabled="{{isDisabled1}}">{{point1[0][1]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint1" data-id="{{0}}" data-sid="{{2}}" disabled="{{isDisabled1}}">{{point1[0][2]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint1" data-id="{{1}}" data-sid="{{0}}" disabled="{{isDisabled1}}">{{point1[1][0]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint1" data-id="{{1}}" data-sid="{{1}}" disabled="{{isDisabled1}}">{{point1[1][1]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint1" data-id="{{1}}" data-sid="{{2}}" disabled="{{isDisabled1}}">{{point1[1][2]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint1" data-id="{{2}}" data-sid="{{0}}" disabled="{{isDisabled1}}">{{point1[2][0]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint1" data-id="{{2}}" data-sid="{{1}}" disabled="{{isDisabled1}}">{{point1[2][1]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint1" data-id="{{2}}" data-sid="{{2}}" disabled="{{isDisabled1}}">{{point1[2][2]}}</button></view>
+</view>
+<view class="board2">
+    <view class="board-item"><button bindtap="changepoint2" data-id="{{0}}" data-sid="{{0}}" disabled="{{isDisabled2}}">{{point2[0][0]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint2" data-id="{{0}}" data-sid="{{1}}" disabled="{{isDisabled2}}">{{point2[0][1]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint2" data-id="{{0}}" data-sid="{{2}}" disabled="{{isDisabled2}}">{{point2[0][2]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint2" data-id="{{1}}" data-sid="{{0}}" disabled="{{isDisabled2}}">{{point2[1][0]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint2" data-id="{{1}}" data-sid="{{1}}" disabled="{{isDisabled2}}">{{point2[1][1]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint2" data-id="{{1}}" data-sid="{{2}}" disabled="{{isDisabled2}}">{{point2[1][2]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint2" data-id="{{2}}" data-sid="{{0}}" disabled="{{isDisabled2}}">{{point2[2][0]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint2" data-id="{{2}}" data-sid="{{1}}" disabled="{{isDisabled2}}">{{point2[2][1]}}</button></view>
+    <view class="board-item"><button bindtap="changepoint2" data-id="{{2}}" data-sid="{{2}}" disabled="{{isDisabled2}}">{{point2[2][2]}}</button></view>
+    <view class="sum2">Your points：{{sum2}}</view>
+</view>
+<view class="touzi1" bindtap="yaotouzi2"><image class="but2" src='{{touzitupian2}}' mode="widthFix"></image></view>
+

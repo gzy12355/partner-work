@@ -1,0 +1,22 @@
+<!--pages/paiming/paiming.wxml-->
+<image class="background" src="/image/paiming_shuimo.jpg" mode="aspectFill"></image>
+<view class="table">
+  <view class="tr">
+    <view class="th">排名</view><view class="th">昵称</view><view class="th">得分</view>
+  </view>
+  <view class="tr">
+   <view class="td">1</view><view class="td">cc</view><view class="td">123</view>
+  </view>
+  <view class="tr">
+    <view class="td">2</view><view class="td">yolo</view><view class="td">120</view>
+  </view>
+  <view class="tr">
+    <view class="td">3</view><view class="td">小老板</view><view class="td">106</view>
+  </view>
+  <view class="tr">
+    <view class="td">4</view><view class="td">火男</view><view class="td">100</view>
+  </view>
+  <view class="tr">
+    <view class="td">5</view><view class="td">就爱吃烤鸡</view><view class="td">93</view>
+  </view>
+</view>

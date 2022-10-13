@@ -1,0 +1,62 @@
+/* pages/pvp/pvp.wxss */
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.board1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
+  height: 180px;
+  justify-content: center;
+  padding: 100px;
+}
+.board2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
+  height: 180px;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.board-item{
+   width: 33.33%;
+   display: flex;
+   font-family:cursive;
+}
+.touzi1{
+  align-items: center;
+  padding-right: 180px;
+}
+.touzi2{
+  align-items: center;
+  padding-top: 120px;
+  padding-left: 180px;
+}
+.but1{
+  background-color:ivory;
+  width: 60px;
+  margin-left: 10px;
+}
+.but2{
+  background-color:ivory;
+  width: 60px;
+  margin-left: 300px;
+  margin-top: 70px;
+}
+.sum1{
+   width: 100%;
+   font-size: 20px;
+   font-family: fantasy;
+  
+}
+.sum2{
+  padding-left: 40px;
+  font-size: 20px;
+  font-family: fantasy;
+  
+}
